@@ -1,0 +1,87 @@
+﻿{
+"groups":[
+	{
+		"groupTitle":"重點連結 Hotlinks",
+		"links":[
+			{
+				"link":"http://aps2.uch.edu.tw/adm_unit/aaoffice/recruit/recruitd2.htm",
+				"title":"日二技申請入學相關訊息"		
+			},
+			{
+				"link":"http://aps2.uch.edu.tw/adm_unit/aaoffice/recruit/recruitd.htm",
+				"title":"四技申請入學相關訊息"		
+			},
+			{
+				"link":"http://www.uch.edu.tw/web/index.php?option=com_content&amp;view=article&amp;id=60&amp;Itemid=108",
+				"title":"校徽下載"		
+			},
+			{
+				"link":"http://aps2.uch.edu.tw/adm_unit/aaoffice/cs/index.htm",
+				"title":"大陆地区学生招生信息"		
+			},
+			{
+				"link":"http://etc.uch.edu.tw",
+				"title":"企業教育訓練中心"		
+			},
+			{
+				"link":"http://aps2.uch.edu.tw/adm_unit/aaoffice/rc/index.htm",
+				"title":"研究所碩士班暨碩士在職專班考試入學"		
+			},
+			{
+				"link":"http://taiger.uch.edu.tw/",
+				"title":"雙軌訓練旗艦計畫"		
+			},
+			{
+				"link":"http://ctle.uch.edu.tw/",
+				"title":"教學卓越計畫"		
+			},
+			{
+				"link":"http://www.ctle.ntut.edu.tw",
+				"title":"北區教學資源中心"		
+			},
+			{
+				"link":"http://service2.uch.edu.tw/questionary/teachistory.html",
+				"title":"教師評量網址"		
+			},
+			{
+				"link":"http://aps10.uch.edu.tw/secretary/grants/index.html",
+				"title":"獎勵補助經費專區"		
+			},
+			{
+				"link":"http://120.124.96.156/class/index.asp",
+				"title":"學程資訊網"		
+			}
+		]
+		
+	},
+	{
+		"groupTitle":"學生專區 Student Area",
+		"links":[
+			{
+				"link":"http://helpdreams.moe.edu.tw/",
+				"title":"圓夢助學網"		
+			},
+			{
+				"link":"http://140.111.34.220",
+				"title":"就學安全網"		
+			}
+		]
+		
+	},
+	{
+		"groupTitle":"宣導資訊 Guidance Info.",
+		"links":[
+			{
+				"link":"http://gaoffice.uch.edu.tw/energy.htm",
+				"title":"健行科大用電量及電費公告"		
+			},
+			{
+				"link":"http://www.uch.edu.tw/web/images/Download/uch_is_policy.pdf",
+				"title":"資訊安全政策"		
+			}
+		]
+		
+	}
+]
+}
+

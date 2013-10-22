@@ -1,0 +1,94 @@
+﻿{
+"items":[
+	{
+		"title":"認識健行",
+		"id"   :"aboutBrick",
+		"type" :"linkSet",
+		"testLink":"http://www.uch.edu.tw",
+		"src"  :"json/aboutLink.json"
+	},
+	{
+		"title":"招生資訊",
+		"id"   :"enrollBrick",
+		"type" :"linkSet",
+		"testLink":"http://www.kimo.com.tw",
+		"src"  :"json/enrollLink.json"
+	},
+	{
+		"title":"各項連結",
+		"id"   :"linksBrick",
+		"type" :"linkSet",
+		"testLink":"http://www.google.com",
+		"src"  :"json/linksLink.json"
+	},
+	{
+		"title":"學術單位",
+		"id"   :"academicBrick",
+		"type" :"linkSet",
+		"testLink":"http://www.w3schools.com",
+		"src"  :"json/academicLink.json"
+	},
+	{
+		"title":"行政單位",
+		"id"   :"administrationBrick",
+		"type" :"linkSet",
+		"src"  :"json/administrationLink.json"
+	},
+	{
+		"title":"資訊服務",
+		"id"   :"serviceBrick",
+		"type" :"linkSet",
+		"src"  :"json/serviceLink.json"
+	},
+	{
+		"title":"訪客",
+		"id"   :"visitorBrick",
+		"type" :"linkSet",
+		"src"  :"json/visitor.json"
+	},
+	{
+		"title":"學生",
+		"descripttion": "點擊後，直接開 SIP 的登入介面，登入 SIP",
+		"background":"images/logo_SIP_ssl.jpg",
+		"prompt":"學生請使用健行之Email帳號(學號)、密碼登入。",
+		"id"   :"studentBrick",
+		"type" :"login",
+		"feilds":[
+					{"feildname":"t1", "title":"學號", "type":"text"},
+					{"feildname":"t2", "title":"密碼", "type":"password"}
+				 ],
+		"link"  :"https://std.uch.edu.tw/SIP/login_verify.aspx"
+	},
+	{
+		"title":"教職員",
+		"descripttion": "點擊後，直接開 AIP 的登入介面，登入AIP",
+		"background":"images/AIP_Background.jpg",
+		"prompt":"教職員請使用健行之Email帳號密碼登入。",
+		"id"   :"memberBrick",
+		"type" :"login",
+		"feilds":[
+					{"feildname":"txtaccount", "title":"帳號：", "type":"plaintext"},
+					{"feildname":"txtpassword", "title":"密碼：", "type":"password"}
+				 ],
+		"link"  :"https://aps1.uch.edu.tw/aip/login_verify_NV_SSL.asp"
+	},
+	{
+		"title":"最常用二",
+		"id"   :"most2Brick",
+		"type" :"link",
+		"linkto"  :"https://std.uch.edu.tw/SIP/login.htm?"
+	},
+	{
+		"title":"最常用一",
+		"id"   :"most1Brick",
+		"type" :"link",
+		"linkto"  :"https://aps1.uch.edu.tw/aip/login_NV.htm"
+	},
+	{
+		"title":"回預設",
+		"id"   :"defaultBrick",
+		"type" :"default"
+	}
+
+]
+}

@@ -1,0 +1,63 @@
+﻿{
+"hidden_left":"-2000px",
+"items":[
+	{
+		"type":"image",
+		"title":"logo",
+		"src":"images/uchlogo_only.png",
+		"location":{"left":"10","top":"10"},
+		"size":{"width":"100","height":"100"}
+	},
+	{
+		"type":"image",
+		"title":"橫幅",
+		"src":"images/top.png",
+		"location":{"left":"110","top":"10"},
+		"size":{"width":"1440","height":"60"}
+	},
+	{
+		"id":"maindisplay",
+		"type":"panel",
+		"title":"主顯示區",
+		"location":{"left":"100","top":"90"},
+		"size":{"width":"1150","height":"600"}
+	},
+	{
+		"id":"iconlink",
+		"type":"panel",
+		"title":"圖示連結區",
+		"location":{"left":"10","top":"700"},
+		"size":{"width":"1200","height":"150"}
+	},
+	{
+		"id":"secondarydisplay",
+		"type":"panel",
+		"title":"次顯示區",
+		"location":{"left":"1250","top":"70"},
+		"size":{"width":"300","height":"600"}
+	}, 
+	{
+		"id":"roledisplay",
+		"type":"panel",
+		"title":"身份變更區(暫時不用)",
+		"location":{"left":"1250","top":"700"},
+		"size":{"width":"250","height":"0"},
+		"backgroundColor":"#0000ff"
+	},
+	{
+		"id":"mainoperate",
+		"type":"panel",
+		"title":"主操作區",
+		"location":{"left":"1250","top":"700"},
+		"size":{"width":"300","height":"170"},
+		"backgroundColor":"#ddddff"
+	},
+	{
+		"type":"line",
+		"title":"畫橫條",
+		"location":{"left":"10","top":"698"},
+		"size":{"width":"1540","height":"2"},
+		"color":"#0000ff"
+	}
+]
+}

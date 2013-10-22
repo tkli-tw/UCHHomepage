@@ -1,0 +1,16 @@
+﻿{
+"items":[
+	{
+		"title":"個人資訊",
+		"link":"data/personal_info"
+	},
+	{
+		"title":"教學課程",
+		"link":"data/teaching"
+	},
+	{
+		"title":"研究成果",
+		"link":"data/research"
+	}
+]
+}

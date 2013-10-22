@@ -1,0 +1,42 @@
+application: uch-edu-tw
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+
+- url: /stylesheets
+  static_dir: static/stylesheets
+
+- url: /images
+  static_dir: static/images
+
+- url: /js
+  static_dir: static/js
+
+- url: /xml
+  static_dir: static/xml
+
+- url: /json
+  static_dir: static/json
+
+- url: /text
+  static_dir: static/text
+
+- url: /(.*\.(html|htm))
+  static_files: static/\1
+  upload: static/(.*\.(html|htm))
+
+- url: /fetchData/.*
+  script: fetchData.application
+
+- url: /data/.*
+  script: data.application
+
+- url: /.*
+  script: greeting.application
+
+libraries:
+- name: webapp2
+  version: latest
