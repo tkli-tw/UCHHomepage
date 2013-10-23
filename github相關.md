@@ -5,6 +5,7 @@ Github 相關記事
 Something
 -----------------------------------------------
 account: tkli-tw
+
 email: tkli.tw@gmail.com
 
 
@@ -58,6 +59,7 @@ commit 後，可上傳至遠端伺服器，
 第二，就是要先設定好你的遠端伺服器，使用 git remote 指令，以我的例子：
 
 >$ git remote  別名   網址
+
 >$ git remote origin https://github.com/tkli-tw/UCHHomepage.git
 
 不過，origin 好像一開始就有的，可以用
@@ -75,6 +77,18 @@ commit 後，可上傳至遠端伺服器，
 其中 master 是 branch(分支) 的名字，我還有玩到那邊，所以，就只能用 master 了，
 不過， branch 是這個版本控制好玩的地方，等有空再玩玩，先到這 ..........tkli..20131022
 
+
+6. update 更新
+-----------------------------------------------
+基本上，如果你一直都是單向的 從你的 source 上傳更新上 github 應該只要用上面的上傳就OK了，
+但，萬一你手賤，直接從網站，或者另外的地方，變更了 github 上的內容，
+那麼 github上的版本訊息和你自己 local 端的就會不同，此時，怎麼辦呢？
+
+使用
+>$ git pull origin master
+
+將 github 上的內容更新到 local 端，然後再上傳即可，
+但若是下載後有衝突，好像就要 merge ，而且還有 rebase 和解決衝突的問題，以後再研究 ...... tkli. 20131023
 
 
 
